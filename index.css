@@ -33,14 +33,24 @@
 
 #header {
     background-color: var(--clr-dark);
+    display: flex;
+}
+
+#navbar{
+    margin-left: 1000px;
 }
 
 #navbar ul{
-    text-align: right;
-    display:flex ;
-    flex-direction:column ;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+}
+
+#navbar ul a{
+    text-decoration: none;
 }
 
 .nav_item{
     color: var(--clr-accent);
+    margin: 0px 10px;
 }
