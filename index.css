@@ -55,6 +55,27 @@
     margin: 0px 10px;
 }
 
+/* Home  */
+#home{
+    background-color:gray;
+    text-align: center;
+}
+
+.welcome{
+    padding: 2em;
+}
+.welcome h1{
+    font-size: var(--fs-h1);
+    font-family: var(--ff-primary);
+}
+.welcome h2{
+    font-size: var(--fs-h3);
+    font-family: var(--ff-primary);
+}
+
+
+
+
 
 /* footer */
 #footer{
@@ -79,6 +100,10 @@ color: var(--clr-accent);
 .contact_icon{
     text-decoration: none;
     margin: 2em;
+}
+
+.contact_icon:hover{
+    opacity: .7em;
 }
 
 .contact_list{
