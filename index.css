@@ -7,7 +7,7 @@
 
     --clr-light: rgb(59, 59, 59);
     --clr-dark:hsl(0, 0%, 0%);
-    --clr-accent: #16e0bd;
+    --clr-accent: #1fe6dc;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -53,4 +53,8 @@
 .nav_item{
     color: var(--clr-accent);
     margin: 0px 10px;
+}
+
+#footer{
+    background-color: black;
 }
