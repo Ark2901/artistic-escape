@@ -55,6 +55,25 @@
     margin: 0px 10px;
 }
 
+
+/* footer */
 #footer{
     background-color: black;
+   
 }
+
+.contact ul{
+    display: flex;
+    
+}
+
+.contact {
+    padding: 3.5em 0px;
+    
+}
+
+.contact_icon{
+    text-decoration: none;
+    align-content: center;
+}
+
