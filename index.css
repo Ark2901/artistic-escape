@@ -8,6 +8,7 @@
     --clr-light: rgb(59, 59, 59);
     --clr-dark:hsl(0, 0%, 0%);
     --clr-accent: #1fe6dc;
+    --clr-bar: rgb(142, 216, 164);
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -36,6 +37,10 @@
     display: flex;
 }
 
+#header a:hover{
+    opacity: 0.7;
+}
+
 #navbar{
     margin-left: 1000px;
 }
@@ -57,7 +62,7 @@
 
 /* Home  */
 #home{
-    background-color:gray;
+    background-color:var(--clr-bar);
     text-align: center;
 }
 
@@ -67,12 +72,45 @@
 .welcome h1{
     font-size: var(--fs-h1);
     font-family: var(--ff-primary);
+    font-weight: var(--fw-bold);
 }
 .welcome h2{
     font-size: var(--fs-h3);
     font-family: var(--ff-primary);
+    font-weight: var(--fw-bold);
 }
 
+
+
+/* About US */
+
+#about_us{
+    background-color:var(--clr-bar);
+    font-family: var(--ff-primary);
+    text-align: center;
+}
+
+#about_us h1{
+    font-size: var(--fs-h2);
+    font-weight: 500;
+    padding-bottom: 50px;
+    padding-top: 10px;
+
+}
+
+
+#about_us h2{
+    
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-reg);
+}
+
+#about_us h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-reg);
+}
 
 
 
@@ -100,10 +138,11 @@ color: var(--clr-accent);
 .contact_icon{
     text-decoration: none;
     margin: 2em;
+    
 }
 
-.contact_icon:hover{
-    opacity: .7em;
+.contact a:hover{
+    opacity: 0.7;
 }
 
 .contact_list{
