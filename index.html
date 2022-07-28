@@ -33,9 +33,45 @@
         </header>
 
 <!-- Home -->
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque iusto facere dolore explicabo voluptates corrupti officia fugiat voluptatum non minima, iste inventore sunt modi optio reiciendis incidunt. Et officiis tenetur amet laudantium veniam fuga, ex, voluptatum eum placeat consectetur nihil voluptates harum blanditiis? Magnam maxime facilis eligendi enim quisquam cum deserunt minima incidunt nostrum veniam praesentium ea doloremque illum, at ratione dolore quaerat illo deleniti dignissimos alias! Natus maxime vero quidem itaque dolore commodi a impedit cupiditate sit ipsum dicta incidunt minus iure sapiente, unde adipisci aut nostrum, architecto eligendi hic quia molestias quos iusto magnam. Odit ratione obcaecati repudiandae velit aut et est aspernatur numquam dolorem? Nam voluptates dicta vel cupiditate, mollitia doloremque maiores vero repudiandae animi odit assumenda perferendis quam, corrupti consectetur ullam id repellat modi. Possimus laborum assumenda omnis quo eius nobis autem pariatur error inventore praesentium iure molestias, necessitatibus cumque quasi itaque modi maiores velit aperiam cum? Atque, consequuntur, eaque corrupti rerum ut molestias ipsum cum tenetur assumenda quaerat, reiciendis esse exercitationem quas laboriosam? Id non natus quidem fuga a at quae facilis quibusdam soluta, beatae quisquam minus possimus odio. Incidunt libero explicabo ipsum, omnis atque iure cumque reiciendis, nesciunt dolore magnam voluptatem id totam.</p>
+<div id="img">
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="paintings/pic3.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="paintings/pic5.webp" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="paintings/unnamed.jpg" style="width:80%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+</div>
 
 <div id="home">
+    
     <div class="welcome">
         <h1>Welcome!</h1>
         <h2>Take a tour to the Wonderful World of my paintings </h2>
@@ -87,5 +123,6 @@
             </div>
         </footer>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
