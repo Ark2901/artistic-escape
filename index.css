@@ -19,7 +19,9 @@
         0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 /* header */
 
 #header img{
@@ -39,6 +41,7 @@
 
 #header a:hover{
     opacity: 0.7;
+    transform: scale(1.1);
 }
 
 #navbar{
@@ -53,6 +56,7 @@
 
 #navbar ul a{
     text-decoration: none;
+    transition: ease-in-out ;
 }
 
 .nav_item{
@@ -254,6 +258,28 @@ color: var(--clr-accent);
 
 
 /* OPTIONS */
-.btn{
-    
+
+#options{
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em 2.5em;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+    border-radius: 5px;
+    border: var(--clr-accent);
+    margin: 1em 4em;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
