@@ -1,3 +1,9 @@
 p{
     height: 100vh;
 }
+
+.mandala{
+    display: flex;
+    flex-direction: row;
+}
+
